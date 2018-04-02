@@ -11,15 +11,15 @@ const Header = () => (
       <div className="col">
         <h3 className="m-0 text-dark">Mile High QB Club</h3>
       </div>
-      <div className="col text-right d-none d-md-block">
+      {/* <div className="col text-right d-none d-md-block">
         <a className="btn btn-primary text-white">Get Started</a>
-      </div>
+      </div> */}
     </div>
   </div>
 )
 
 const Footer = () => (
-  <div className="bg-dark py-4">
+  <div className="bg-dark py-2">
 
   </div>
 )
@@ -27,10 +27,9 @@ const Footer = () => (
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="Mile Hight QB Club"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'At Mile High QB you will receive prime coaching from a former Division 1 QB. Paul has a background on all offensive positions and has worked and played with some of the best in the country.' },
       ]}
     />
     <Header />
