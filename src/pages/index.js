@@ -13,8 +13,8 @@ class IndexPage extends React.Component {
     super(props);
 
     this.state = {
-      submitted: true,
-      open: true,
+      submitted: false,
+      open: false,
     }
   }
 
@@ -72,19 +72,19 @@ class IndexPage extends React.Component {
                 <input type="text" name="_gotcha" style={{ display: 'none' }} />
                 <input type="hidden" name="_next" value="/" />
                 <div className="form-group">
-                  <input type="text" className="form-control bg-light text-dark custom-input" id="firstName" placeholder="Athletes First Name" />
+                  <input type="text" className="form-control bg-light text-dark custom-input" name="firstName" id="firstName" placeholder="Athletes First Name" />
                 </div>
                 <div className="form-group">
-                  <input type="text" className="form-control bg-light text-dark custom-input" id="lastName" placeholder="Athletes Last Name" />
+                  <input type="text" className="form-control bg-light text-dark custom-input" name="lastName" id="lastName" placeholder="Athletes Last Name" />
                 </div>
                 <div className="form-group">
-                  <input type="text" className="form-control bg-light text-dark custom-input" id="position" placeholder="Position" />
+                  <input type="text" className="form-control bg-light text-dark custom-input" name="position" id="position" placeholder="Position" />
                 </div>
                 <div className="form-group">
-                  <input type="text" className="form-control bg-light text-dark custom-input" id="email" placeholder="Email" />
+                  <input type="text" className="form-control bg-light text-dark custom-input" name="email" id="email" placeholder="Email" />
                 </div>
                 <div className="form-group">
-                  <input type="text" className="form-control bg-light text-dark custom-input" id="phone" placeholder="Phone Number" />
+                  <input type="text" className="form-control bg-light text-dark custom-input" name="phone" id="phone" placeholder="Phone Number" />
                 </div>
                 <button type="submit" className="btn btn-primary text-white pull-right">Get Started</button>
               </form>
