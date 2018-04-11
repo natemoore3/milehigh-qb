@@ -97,7 +97,7 @@ class IndexPage extends React.Component {
               <div className="col-12 col-lg-10 pb-4">
                 <h4 className="mb-1">Why MileHigh QB</h4>
                 <p className="text-white">
-                  Their are a lot of people out there looking to improve their skills and find ways to become elite. With Mile High QB, you will receive drills and instruction that apply to where you are at and where you want to go. You can't become a college QB without being a great high school QB. All instruction will apply to where you're at in your QB life and where you want to go. Paul has worked with all ages and can assess and improve skills to where you want to go.
+                  There are a lot of people out there looking to improve their skills and find ways to become elite. With Mile High QB, you will receive drills and instruction that apply to where you are at and where you want to go. You can't become a college player without being a great high school player. All instruction will apply to YOU for the here and now so you can be great! Paul has worked with all ages and can assess and improve skills to be a top notch football player.
                 </p>
               </div>
             </div>
