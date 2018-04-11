@@ -41,10 +41,10 @@ class IndexPage extends React.Component {
           <div className="container">
             <div className="row justify-content-end align-items-center py-4 py-lg-5">
               <div className="col-12 col-md-6 pb-4">
-                <h1>
-                  Some Motivational Text Should Go Here
+                <h1 className="h3">
+                  "If you want to WIN, do the ordinary things BETTER than anyone else does them day in and day out."
                 </h1>
-                <h2 className="text-white h5 mb-3 mb-lg-0">MileHigh QB Club</h2>
+                <h2 className="text-white h5 mb-3 mb-lg-0">Chuck Noll, Pittsburgh Steelers</h2>
               </div>
             </div>
           </div>

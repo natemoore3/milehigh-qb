@@ -27,7 +27,7 @@ const Footer = () => (
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Mile Hight QB Club"
+      title="Mile High QB Club"
       meta={[
         { name: 'description', content: 'At Mile High QB you will receive prime coaching from a former Division 1 QB. Paul has a background on all offensive positions and has worked and played with some of the best in the country.' },
       ]}
